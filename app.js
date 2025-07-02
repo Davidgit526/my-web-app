@@ -6,6 +6,6 @@ app.get('/', (req, res) => {
   res.send('Hello from the AWS CodePipeline/CodeDeploy CI/CD pipeline demo!');
 });
 
-app.listen(port, () => {
+app.listen(port, '0.0.0.0', () => {
   console.log(`App listening on port ${port}`);
 });
